@@ -1,25 +1,22 @@
 // Elimarie Morales Santiago
-// October 8, 2013
-// Activity: Expression Worksheet
-
-// Discounts
-
-var originalPrice= 120; // Declare and define original price
-var percentDiscount= 20; // Declare and define Percent Discount
-var itemDescription= "Yankee Jacket"; // Declare and define product name
-var salesTax= 8.875; // Declare and define sales tax
-
-var subTotal= originalPrice-(originalPrice *percentDiscount/100); // Original price minus percent discount for subtotal price
-
-var totalWithTax= salesTax /100* subTotal; // Subtotal with amount of tax calculated
-
-var totalsale= subTotal+totalWithTax; //Subtotal with sales tax
-
-var total= "Your" +" "+ itemDescription +" "+ "was originally $" + originalPrice +" "+ ", but after a" +" "+ percentDiscount + "% discount, it is now $"+ subTotal +" "+ "without tax, and $" + totalsale +" "+ "with tax.";
+// October 9, 2013
+// Screencast: Prompt and Alert
 
 
-console.log(total);
+// var userInput= prompt("Enter your year of birth:");
+//console.log(userInput);
 
+var width= prompt("We are calculating the area of a rectangle. \nPlease calculate the width.");
+var height= prompt("Please enter the height");
+
+var area= width*height;
+
+//console.log(area); print out to console
+
+// alert("The are of your rectangle is " + area); //concatenating with area
+
+var result= "The are of your rectangle is " + area;  //another way of doing this
+alert(result);
 
 
 
