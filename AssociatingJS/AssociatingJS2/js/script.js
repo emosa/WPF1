@@ -2,17 +2,23 @@
 // October 8, 2013
 // Activity: Expression Worksheet
 
-// Average Shopping Bill
+// Discounts
 
-var groceryWeekTotal= [125, 175, 150, 184, 132]; //  Arrays of weekly totals
-var totalspent= groceryWeekTotal[0]+groceryWeekTotal[1]+groceryWeekTotal[2]+groceryWeekTotal[3]+groceryWeekTotal[4]; //totalspend weekly $766
+var originalPrice= 120; // Declare and define original price
+var percentDiscount= 20; // Declare and define Percent Discount
+var itemDescription= "Yankee Jacket"; // Declare and define product name
+var salesTax= 8.875; // Declare and define sales tax
 
-var averageWeekly=totalspent/5; //average spent will be $153.20
+var subTotal= originalPrice-(originalPrice *percentDiscount/100); // Original price minus percent discount for subtotal price
 
-var result= "You have spent a total of $" + totalspent + " " + "on groceries over 5 weeks." + " " + "That is an average of $" + averageWeekly + " " + "per week."
+var totalWithTax= salesTax /100* subTotal; // Subtotal with amount of tax calculated
 
-console.log(result);
+var totalsale= subTotal+totalWithTax; //Subtotal with sales tax
 
+var total= "Your" +" "+ itemDescription +" "+ "was originally $" + originalPrice +" "+ ", but after a" +" "+ percentDiscount + "% discount, it is now $"+ subTotal +" "+ "without tax, and $" + totalsale +" "+ "with tax.";
+
+
+console.log(total);
 
 
 
