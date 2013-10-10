@@ -11,3 +11,5 @@ var comments= prompt("Any additional comments would be greatly appreciated:"); /
 var valueInput= alert("Thank you for your feedback! \nYou have just earned 25% Off discount! \nYour coupon code is '('MYSTAR2013')"); //variable for coupon code earned
 
 console.log("Customer Name:"+ " " +userName + " " + "Rating Number:" + " " + enterNumber + " " + "User Comments:" + " " + comments); // display print user information number of rating and comments
+
+// example of console.log: Customer Name: Elimarie Morales Rating Number: 5 User Comments: great store good selection
