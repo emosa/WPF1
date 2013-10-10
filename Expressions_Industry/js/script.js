@@ -5,4 +5,4 @@
 // Rate us and earn a discount
 
 var salute= alert("Welcome to My Shop! \nRate us and earn a discount!"); // variable for welcome alert
-var userName= prompt("Please enter your first and last name");
+var userName= prompt("Please enter your first and last name"); // variable for user input
