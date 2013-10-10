@@ -23,4 +23,5 @@ console.log(watergallon); // My fish tank holds 30.55248 gallons of water.
 
 
 var spokyLenght= 11; //Spoky lenght in inches
+var spokyWidth= 8;
 
