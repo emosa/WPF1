@@ -15,7 +15,7 @@ var gallonsub= total * 0.00433; // Calculating total measurements multiplied by 
 
 var watergallon= "My fish tank holds" +" "+ gallonsub + " " + "gallons of water."; // This is the result of all calculations
 
-//console.log(watergallon); // My fish tank holds 30.55248 gallons of water.
+console.log(watergallon); // My fish tank holds 30.55248 gallons of water.
 
 //Since I didn't commit 20 times I am doing another expression
 
