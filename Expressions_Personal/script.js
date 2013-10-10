@@ -30,10 +30,10 @@ var doorHeight= spokyHeight + 3; //Spoky house door opening should be 3 inches t
 
 var houseWidthDepth= spokyLenght +" "+ "Wide and deep each"; // Spoky house should be 11 inch wide and 11 inch deep
 
-var
+var househeight= spokyHeight * 1.25; // Spoky house minimal height should be 7.5 inches
 
 
 
-console.log();
+console.log(househeight);
 
 
