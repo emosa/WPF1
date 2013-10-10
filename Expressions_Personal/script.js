@@ -32,8 +32,8 @@ var houseWidthDepth= spokyLenght +" "+ "Wide and deep each"; // Spoky house shou
 
 var househeight= spokyHeight * 1.25; // Spoky house minimal height should be 7.5 inches
 
+var spokyNewHouse= "Spokys house door should be" + " " + doorHeight + " " + "inch." + " " + "The width and depth" + " " + spokyLenght + " " + "inch" + " " + "and house height should be" + " " + househeight + " " + "inch for a medium dog."; // Total calculations for Spoky's house
 
-
-console.log(househeight);
+console.log(spokyNewHouse); // Total calculations print out
 
 
