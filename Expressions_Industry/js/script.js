@@ -10,4 +10,4 @@ var enterNumber=prompt("On a 5 star rating, how would you rate our service? '\n(
 var comments= prompt("Any additional comments would be greatly appreciated:"); // variable prompt user input additional comments
 var valueInput= alert("Thank you for your feedback! \nYou have just earned 25% Off discount! \nYour coupon code is '('MYSTAR2013')"); //variable for coupon code earned
 
-console.log("Customer Name:"+ " " +userName + " " + "Rating Number:" + " " + enterNumber + " " + "User Comments:" + " " + comments);
+console.log("Customer Name:"+ " " +userName + " " + "Rating Number:" + " " + enterNumber + " " + "User Comments:" + " " + comments); // display print user information number of rating and comments
