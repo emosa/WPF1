@@ -15,7 +15,7 @@ var gallonsub= total * 0.00433; // Calculating total measurements multiplied by 
 
 var watergallon= "My fish tank holds" +" "+ gallonsub + " " + "gallons of water."; // This is the result of all calculations
 
-console.log(watergallon); // My fish tank holds 30.55248 gallons of water.
+//console.log(watergallon); // My fish tank holds 30.55248 gallons of water.
 
 //Since I didn't commit 20 times I am doing another expression
 
@@ -28,6 +28,12 @@ var spokyHeight= 6; // Spoky height in inches distance from the top of the head 
 
 var doorHeight= spokyHeight + 3; //Spoky house door opening should be 3 inches taller than hes actual height
 
+var houseWidthDepth= spokyLenght +" "+ "Wide and deep each"; // Spoky house should be 11 inch wide and 11 inch deep
 
+var
+
+
+
+console.log();
 
 
