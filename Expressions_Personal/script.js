@@ -17,3 +17,7 @@ var watergallon= "My fish tank holds" +" "+ gallonsub + " " + "gallons of water.
 
 console.log(watergallon); // My fish tank holds 30.55248 gallons of water.
 
+//Since I didn't commit 20 times I am doing another expression
+
+// Determine the dimensions of a new dog house for Spoky.
+
