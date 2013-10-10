@@ -22,5 +22,5 @@ console.log(watergallon); // My fish tank holds 30.55248 gallons of water.
 // Determine the dimensions of a new dog house for Spoky.
 
 
-var spokyLenght= 11;
+var spokyLenght= 11; //Spoky lenght in inches
 
