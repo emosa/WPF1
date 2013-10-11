@@ -40,4 +40,4 @@ var things= (salt + pepper + flour + milk + juice); // cost of all items togethe
 
 var total= "I will spend $" + things+ " " + "at the supermarket"; // string result
 
-alert(total);
+alert(total);// display result 
