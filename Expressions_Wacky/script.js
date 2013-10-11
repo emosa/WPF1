@@ -27,3 +27,17 @@
 // I couldn't finish the code I have tried everything and it don't work I guess I will learn in the future
 
 // Running out time but I am trying a new code
+
+// Cash register calculation at the supermarket
+
+var salt = 2.50;
+var pepper = 1.75;
+var flour = 4.25;
+var milk = 3.69;
+var juice = 2.75;
+
+var things= (salt + pepper + flour + milk + juice);
+
+var total= "I will spend $" + things+ " " + "at the supermarket";
+
+alert(total);
