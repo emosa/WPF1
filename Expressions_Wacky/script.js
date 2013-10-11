@@ -32,7 +32,7 @@
 
 var salt = 2.50; // cost of salt
 var pepper = 1.75; //cost of pepper
-var flour = 4.25;
+var flour = 4.25; //cost of flour
 var milk = 3.69;
 var juice = 2.75;
 
