@@ -36,8 +36,8 @@ var flour = 4.25; //cost of flour
 var milk = 3.69; // cost of milk
 var juice = 2.75; // cost of juice
 
-var things= (salt + pepper + flour + milk + juice); // cost of all items together 
+var things= (salt + pepper + flour + milk + juice); // cost of all items together
 
-var total= "I will spend $" + things+ " " + "at the supermarket";
+var total= "I will spend $" + things+ " " + "at the supermarket"; // string result
 
 alert(total);
