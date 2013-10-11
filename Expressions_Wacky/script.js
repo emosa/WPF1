@@ -31,7 +31,7 @@
 // Cash register calculation at the supermarket
 
 var salt = 2.50; // cost of salt
-var pepper = 1.75;
+var pepper = 1.75; //cost of pepper
 var flour = 4.25;
 var milk = 3.69;
 var juice = 2.75;
