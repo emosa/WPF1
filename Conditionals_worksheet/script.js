@@ -3,5 +3,5 @@
 
 // Conditionals Worksheet
 
-// Last Chance for Gas!
+// Celsius to Fahrenheit converter
 
