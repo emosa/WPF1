@@ -1,20 +1,22 @@
 // Elimarie Morales Santiago
 // October 13, 2013
 
-// Condition with expression
+// Condition logic -  with an expression
 
 
 
-var kidHeight= 47;
+var kidHeight= 52;
 var miheight = 48;
-var sneakerLift= 2;
+
 
 // if the child is old, enough, print to console "you can ride!"
 
 // if the kid is over 48 inches height
 
-if(kidHeight + sneakerLift > miheight){
+if(kidHeight > miheight){
     //code performed if condition is true
     console.log("You can ride the coaster!");
 }
-
+if(kidHeight <= miheight){
+    console.log("Sorry kid, you've got some growing to do first! ");
+}
