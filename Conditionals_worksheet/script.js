@@ -5,6 +5,8 @@
 
 // Last Chance for Gas!
 
-var carMpg= ;
-var gasTankReading= %;
-var gasTankGal= ;
+var carMpg= 28;
+var gasTankReading= 0.050;
+var gasTankGal= 20;
+
+
