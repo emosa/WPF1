@@ -5,7 +5,7 @@
 
 // Last Chance for Gas!
 
-var carGasMpg= 28; // Gas miles per gallon
+var carGasMpg= 28;// Gas miles per gallon
 var gasTankReading= 0.050;// Half tank
 var gasTankGallons= 20;// Gas tank gallon capacity
 var totalGallonLeft= gasTankGallons / 2; // Gallons capacity divided by half gallon
