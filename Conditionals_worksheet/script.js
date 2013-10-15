@@ -9,16 +9,17 @@
 var userName= "John Doe";
 var password= "Eli@10459";
 
-
+prompt("Enter username");
 if (userName != userName){
     alert("User not found. Try again.");
 } else if( password != password){
     alert("Password does not match our record");
-} else (userName == userName \ password == password){
-    alert("Welcome"+ userName +"!");
-
-
+} else {(userName == password)
+    alert("Welcome"+" "+  userName +"!");
 }
 
-// userName == userName
-
+//alert("User not found. Try again.");
+//} else if( password != password){
+//    alert("Password does not match our record");
+//} else {(userName == password)
+//    alert("Welcome"+" "+  userName +"!");
