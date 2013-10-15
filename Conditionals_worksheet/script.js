@@ -13,11 +13,16 @@ var password= prompt("Enter your password");
 
 if (userName != uName){
     alert("User not found. Try again.");
-}else if (userName != password){
+}
+
+if (userName != pasw){
     alert("Password does not match our record");
 }else{
     alert("Welcome"+" "+  userName +"!");
 }
+
+
+
 
 //alert("User not found. Try again.");
 //} else if( password != password){
