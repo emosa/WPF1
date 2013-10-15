@@ -6,24 +6,31 @@
 // Check the Login
 
 
-var userName= "John Doe";
-var password= "Eli@10459";
-var match= true;
+var uName="John Doe";
+var pasw= "Eli@10459";
+var userName= prompt("Enter username");
+var password= prompt("Enter your password");
 
-prompt("Enter username");
-
-if (userName != userName){
+if (userName != uName){
     alert("User not found. Try again.");
-}
-prompt("Please enter your password");
-if (password != userName){
+}else if (userName != password){
     alert("Password does not match our record");
+}else{
+    alert("Welcome"+" "+  userName +"!");
 }
 
 //alert("User not found. Try again.");
 //} else if( password != password){
 //    alert("Password does not match our record");
 //} else {(userName == password)
-//    alert("Welcome"+" "+  userName +"!");
+//
 
 //(userName != password)
+
+//prompt("Enter username");
+
+//prompt("Please enter your password");
+//if (password != userName){
+ //   alert("Password does not match our record");
+
+//prompt("Please enter your password");
