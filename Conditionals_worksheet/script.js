@@ -5,19 +5,29 @@
 
 // Check the Login
 
-var uName= "John Doe"; // user name input
-var passW= "12345";
+var uName= "J"; // user name input
+var passW= "1"; // user input password
 var userName= prompt("Enter username");
 var passInput= prompt("Please enter your password");
 
-if (uName === userName){ //if this condition is true
+if (uName == userName)
+    { //if this condition is true
     alert("Welcome"+" "+  userName +"!");
-}else{
-    alert("User not found. Try again."); // if this condition is false alert user
-}
-if (uName != passW){
-    alert("Password does not match our record");
-}
+
+    if (passInput == passW)
+        {
+      //  alert("Password does match our record"); //
+        }
+    else {
+        alert("Password does not match our record");
+         // alert if password don't match
+        }
+    }
+else{
+    alert("User not found. Try again.");
+    // if this condition is false alert user
+    }
+
 
 
 
