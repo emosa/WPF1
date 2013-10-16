@@ -7,8 +7,17 @@
 
 var tirePressure =["tire1","tire2", "tire3", "tire4"];
 
-console.log("The tires pass spec");
+var psi="38";
 
-console.log("Get your tires checked out");
+if (psi == 0 ){
+    console.log("The tires pass spec");
+}
+else
+{
+    console.log("Get your tires checked out");
+}
+
+
+
 
 
