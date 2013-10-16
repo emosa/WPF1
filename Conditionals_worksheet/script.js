@@ -13,7 +13,7 @@ tire[3]= 38;     // tire  psi pressure
 
 var psi = 38; // normal tire psi pressure
 
-if (psi <= tire){// if it is true
+if (psi >= tire){// if it is true
     console.log("The tires pass spec"); //print out console
 }
 else // if it is not true
