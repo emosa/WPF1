@@ -16,7 +16,7 @@ if (uName == userName)
 
     if (passInput == passW)
         {
-      //  alert("Password does match our record"); //
+        alert("Password does match our record");  // if user input match
         }
     else {
         alert("Password does not match our record");
