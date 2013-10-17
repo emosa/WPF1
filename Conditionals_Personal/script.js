@@ -8,3 +8,7 @@
 
 
 var question= prompt("How many dollars bills are in 500 dollars");
+
+if (question== 25) {
+
+}
