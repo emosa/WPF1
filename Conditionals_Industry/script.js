@@ -11,3 +11,5 @@ var shirtStock= prompt("Please check our stock before placing your order. \n How
 itemGildanShirts= (shirtStock < 400)? "Available in stock. Please proceed with your order": "Call 1-877-571-0000 to verify stock and place your order";
 
 //conditionals with ternaries
+
+alert(itemGildanShirts); // alert for customers depending on customers choice
