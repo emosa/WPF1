@@ -15,3 +15,6 @@ if (gucciJacket >= bankSavings){
 else if (cashMoney < gucciJacket){
     alert("Choose a cheaper jacket!");
 }
+else{
+    alert("Sorry maybe another time");
+}
