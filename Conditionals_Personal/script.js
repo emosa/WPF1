@@ -12,3 +12,6 @@ var question= prompt("How wise are you? How many dollars bills are in 500 dollar
 if (question== 25) {
    alert("Wohoo! you are money wise")
 }
+else {
+    alert ("Oops! get your math right");
+}
