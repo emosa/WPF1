@@ -11,3 +11,7 @@ var cashMoney= 1400; // cash money in pockets
 
 if (gucciJacket >= bankSavings){
     alert("Enjoy your new jacket!");
+}
+else if (cashMoney < gucciJacket){
+    alert("Choose a cheaper jacket!");
+}
