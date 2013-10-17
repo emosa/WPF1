@@ -1,4 +1,9 @@
 // Elimarie Morales Santiago
-// October 16, 2013
+// October 17, 2013
 
 // Assignment: Conditionals
+
+// Gucci jacket purchase
+
+var gucciJacket= 1600; // cost of jacket
+
