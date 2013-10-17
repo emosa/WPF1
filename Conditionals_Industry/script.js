@@ -4,3 +4,5 @@
 // Assignment: Conditionals
 
 // Check item stock inventory before purchasing
+
+var itemGildanShirts; //variable for shirts
