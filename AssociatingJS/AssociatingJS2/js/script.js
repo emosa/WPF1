@@ -1,15 +1,21 @@
 // Elimarie Morales Santiago
 // October 20, 2013
 
-// Functions - Variable Scope
+// Functions - Parameters and Arguments
 
-var width = 5; //used outside the function
 
-function calcArea(){//function definition
-    var width = 20;
-    var height = 30;
-    var area = width * height;
-    console.log(area);
+//calcArea(30,20);
+//
+//function calcArea(w,h){//w=30, h=20
+//   var area = w * h;
+//    console.log(area);
+//}
+
+
+function dogYears(age){//The parenthesis in the function definition hold parameters
+    var dogYears = age * 7;
+    console.log("Sparky is " + dogYears + " years old.");
 }
-
-calcArea(); //invocation or call of function 
+dogYears(4);//The parenthesis in the call function hold arguments
+dogYears(5);
+dogYears(6);
