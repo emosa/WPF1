@@ -1,21 +1,15 @@
 // Elimarie Morales Santiago
 // October 20, 2013
 
-// Functions - Parameters and Arguments
+// Functions - Returning Values
 
 
-//calcArea(30,20);
-//
-//function calcArea(w,h){//w=30, h=20
-//   var area = w * h;
-//    console.log(area);
-//}
+var total = calcArea(30,20);
 
-
-function dogYears(age){//The parenthesis in the function definition hold parameters
-    var dogYears = age * 7;
-    console.log("Sparky is " + dogYears + " years old.");
+function calcArea(w,h){
+var area = w * h;
+return area;// function spitting the info out
 }
-dogYears(4);//The parenthesis in the call function hold arguments
-dogYears(5);
-dogYears(6);
+console.log(total);
+
+
