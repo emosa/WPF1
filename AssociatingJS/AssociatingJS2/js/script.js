@@ -1,13 +1,11 @@
 // Elimarie Morales Santiago
-// October 13, 2013
+// October 20, 2013
 
-// Conditional Logic - Ternary Operators
+//infinite loops
 
-var age = 11;
-var book;
+ var b = 10; // setups the index
 
-// if the child is under 10, they get Green eggs, otherwise they get the time machine
-
-book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
-console.log(book);
-
+while ( b > 0) {// checks the condition
+    console.log(b +' kegs on the wall' );
+    b--; //increments or decrements the index
+}
