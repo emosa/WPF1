@@ -1,19 +1,22 @@
 // Elimarie Morales Santiago
 // October 20, 2013
 
-// Functions - Function vs Procedure
+// Functions - Anonymous
 
-// this is function
-function calcArea(width,height){
-   var area = width * height;
-   return area;
-}
+//var functionName =function(){
+//    // code to run
+//}
+//
+//functionName();
 
-// this is a procedure
 
-function calcAreaP(width,height){
+var calcArea = function(width,height){//defining
+    //code the function runs
     var area = width * height;
-    console.log(area); //no return
+    return area;
 }
 
+var a= calcArea(20, 30); // invoking function
+
+console.log(a);
 
