@@ -1,12 +1,9 @@
 // Elimarie Morales Santiago
 // October 20, 2013
 
-// Functions - Function Execution Invoque
+// Functions - Variable Scope
 
-
-function outptMsg(){
-    console.log("Hello World");
-}
+var width = 5; //used outside the function
 
 function calcArea(){//function definition
     var width = 20;
