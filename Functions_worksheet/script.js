@@ -14,5 +14,12 @@
 
 // Stung!
 
-var victim= stings (8.666666667,1);// variable for stings and pounds
-function stings
+var bStings = function calcStings(st,pnds){
+    var beeStings= st*pnds;
+    return beeStings;
+}
+var bS=bStings(8.666666667,35);
+console.log("I takes" + " " + bS + "bee stings to kill this animal");
+
+
+
