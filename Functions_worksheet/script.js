@@ -14,12 +14,12 @@
 
 // Stung!
 
-var bStings = function calcStings(st,pnds){
-    var beeStings= st*pnds;
-    return beeStings;
+var bStings = function calcStings(st,pnds){// defines the code for function to run
+    var beeStings= st*pnds; // this variable multiplies the code inside the function
+    return beeStings;// this code is the function giving the info
 }
-var bS=bStings(8.666666667,35);
-console.log("I takes" + " " + bS + "bee stings to kill this animal");
+var bS=bStings(8.666666667,35); //this variable invoke function
+console.log("I takes" + " " + bS + " bee stings to kill this animal");// this is the print of the problem
 
 
 
