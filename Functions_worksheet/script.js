@@ -15,3 +15,4 @@
 // Stung!
 
 var victim= stings (8.666666667,1);// variable for stings and pounds
+function stings
