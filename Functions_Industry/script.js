@@ -11,4 +11,8 @@ var customerCredit = function (monthlyIncome){// function with parameter
     if (monthlyIncome >=1600){
         alert(customerName +" "+ "you qualify for a line of credit");
     }
-}
+    else{
+        alert("Sorry" +" "+ customerName + " "+ " you do not qualify for a line of credit");
+    }
+};
+customerCredit(2000);
