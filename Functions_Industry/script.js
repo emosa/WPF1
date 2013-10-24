@@ -8,7 +8,7 @@
 var customerCredit = function (monthlyIncome){// function with parameter
      var customerName = prompt("Please enter your name");//prompt for user name
        var monthSalary = prompt("Please enter your Net monthly income");// prompt for customer salary
-    if (monthlyIncome >=1600){
+    if (monthlyIncome >=1600){// if the customer monthly income is greater than or equal to
         alert(customerName +" "+ "you qualify for a line of credit");
     }
     else{
