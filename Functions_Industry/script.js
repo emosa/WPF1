@@ -5,3 +5,6 @@
 
 // Store credit check
 
+var customerCredit = function (monthlyIncome){// function with parameter
+
+}
