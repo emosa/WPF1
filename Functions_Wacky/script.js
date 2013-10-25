@@ -5,3 +5,4 @@
 
 // function with more than one parameter
 
+function savings(ten, twenty, thirty){// function with parameters
