@@ -5,3 +5,6 @@
 
 var myName = function()
 {// anonimous function
+    alert("Elimarie");// alert my name
+}
+myName();//call anonimous function
