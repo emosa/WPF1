@@ -6,4 +6,7 @@
 // function with more than one parameter
 
 function savings(ten, twenty, thirty){// function with parameters
-    alert("If I make the effort and save some" + " " + ten +" "+ "by December I can finally" + " " + twenty + " "+ "my new" +" "+ thirty);
+    alert("If I make the effort and save some" + " " + ten +" "+ "by December I can finally" + " " + twenty + " "+ "my new" +" "+ thirty);// alert with parameters
+}
+
+savings("money", "buy", "car!");// called parameters
